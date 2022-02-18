@@ -1,8 +1,14 @@
 <template>
-    <v-card :to="'/detail/' + item.id">
-        <v-img src="twitch-logo.png">
+    <v-card
+    :to="'/detail/' + popstreamer.id"
+    width="350"
+    >
+        <v-img
+        src="twitch-logo.png"
+        height="200"
+        >
         </v-img>
-        <v-card-title class="justify-center">{{item.attributes.name}}</v-card-title>
+        <v-card-title class="justify-center">{{popstreamer.name}}</v-card-title>
         <v-card-actions class="justify-center">
             <!-- <v-btn>
                 {{item.attributes.price}} {{item.attributes.currency}}
@@ -14,7 +20,7 @@
 <script>
 export default {
     props:{
-        item: {}
+        popstreamer: {}
     }
 }
 </script>

@@ -6,8 +6,8 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        titleTemplate: '%s - bivaa_client_main',
-        title: 'bivaa_client_main',
+        titleTemplate: '%s - bivaa_client',
+        title: 'bivaa_client',
         htmlAttrs: {
             lang: 'en'
         },

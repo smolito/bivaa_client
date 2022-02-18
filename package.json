@@ -11,13 +11,16 @@
     "dependencies": {
         "@mdi/js": "^6.5.95",
         "@nuxtjs/axios": "^5.13.6",
+        "@types/lodash": "^4.14.178",
         "core-js": "^3.15.1",
+        "lodash.debounce": "^4.0.8",
         "nuxt": "^2.15.7",
         "sass-loader": "^10.1.1",
         "vuetify": "^2.5.5",
         "webpack": "^4.46.0"
     },
     "devDependencies": {
-        "@nuxtjs/vuetify": "^1.12.1"
+        "@nuxtjs/vuetify": "^1.12.1",
+        "@types/lodash.debounce": "^4.0.6"
     }
 }

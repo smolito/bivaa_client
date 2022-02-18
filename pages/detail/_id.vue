@@ -1,16 +1,16 @@
 <template>
     <v-row>
         <v-col>
-            <Product></Product>
+            <StreamerSchedule></StreamerSchedule>
         </v-col>
     </v-row>
 </template>
 
 <script>
 
-import Product from "../../components/Product";
+import StreamerSchedule from "../../components/StreamerSchedule";
 
 export default {
-    components: {Product}
+    components: {StreamerSchedule}
 }
 </script>
